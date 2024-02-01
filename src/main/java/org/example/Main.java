@@ -5,7 +5,7 @@ public class Main {
 
         for(int numbers = 1; numbers <= 200; numbers ++){
         if(numbers % 3 ==0 && numbers % 5 == 0) {
-            System.out.println("FizzBuzz");
+            System.out.println("BuzzFizz");
         } else if (numbers % 3 == 0) {
             System.out.println("Fizz");
         } else if (numbers % 5 == 0) {
